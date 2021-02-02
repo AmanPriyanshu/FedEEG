@@ -7,7 +7,7 @@ from code.train_single_client import train_single_client
 from code.dataloader import preprocessing
 import pandas as pd
 
-def train(epochs=2):
+def train(epochs=5):
 
 	x, _ = preprocessing('./dataset_hand_movement/user_a.csv')
 	x_mean = np.mean(x, axis=0)
@@ -40,7 +40,7 @@ def train(epochs=2):
 	return aggregate_weights, client_performances
 
 if __name__ == '__main__':
-	weights, performances = train(10)
+	weights, performances = train()
 	model = get_model()
 	model.set_weights(weights)
 	model.save('trained_model.h5')
