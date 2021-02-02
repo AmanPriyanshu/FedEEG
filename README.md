@@ -3,7 +3,7 @@ A Federated Approach towards emotion learning using EEG-brain wasves. Privacy is
 
 ## Performance-Track:
 
-
+![accuracy-image](./images/acc.png)
 
 ## Results:
 
