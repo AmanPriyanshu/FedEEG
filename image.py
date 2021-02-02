@@ -7,6 +7,8 @@ def generate_image(arr, name):
 	for client_id, row in enumerate(arr):
 		plt.plot(np.arange(len(row)), row, label='client_id_'+str(client_id))
 	plt.legend()
+	if 'acc' in name:
+		plt.ylim([-.01, 1.01])
 	plt.savefig(name)
 
 if __name__ == '__main__':
