@@ -1,19 +1,12 @@
-import torch
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense, BatchNormalization
 
-def model_generator():
-	model = torch.nn.Sequential(
-		torch.nn.LSTM(112, 64, 2),
-		torch.nn.Flatten(),
-		#torch.nn.Linear(112, 84),
-		#torch.nn.ReLU(),
-		torch.nn.Linear(84, 64),
-		torch.nn.ReLU(),
-		torch.nn.Linear(64, 42),
-		torch.nn.ReLU(),
-		torch.nn.Linear(42, 32),
-		torch.nn.ReLU(),
-		torch.nn.Linear(32, 8),
-		torch.nn.ReLU(),
-		torch.nn.Linear(8, 3),
-		)
+def get_model():
+	model = Sequential([
+		LSTM(16,input_shape=(11,11), return_sequences=True),
+		LSTM(16),
+		BatchNormalization(),
+		Dense(3, activation='softmax')
+		])
+	model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 	return model
