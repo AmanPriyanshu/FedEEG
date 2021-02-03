@@ -5,6 +5,8 @@ A Federated Approach towards emotion learning using EEG-brain wasves. Privacy is
 
 ![accuracy-image](./images/acc.png)
 
+As we can see that Federated Learning offers a great alternative for EEG Learning. It is able to consistently learn and therefore, future work can focus on formalizing and extending this implementation.
+
 ## Results:
 
 client_id_0_loss | client_id_0_acc | client_id_1_loss | client_id_1_acc | client_id_2_loss | client_id_2_acc | client_id_3_loss | client_id_3_acc
@@ -14,4 +16,3 @@ client_id_0_loss | client_id_0_acc | client_id_1_loss | client_id_1_acc | client
 0.9374355437854925 | 0.5190972089767456 | 0.8785319017867247 | 0.5729166865348816 | 1.0338255328436692 | 0.4548611044883728 | 1.1058493840197723 | 0.421875
 0.8807635648796955 | 0.59375 | 1.0283631086349487 | 0.5416666865348816 | 1.0530484008292358 | 0.4427083432674408 | 0.9789415535827478 | 0.5416666865348816
 0.9172444740931193 | 0.5902777910232544 | 0.8444005412360033 | 0.5972222089767456 | 1.0650703931848209 | 0.4513888955116272 | 0.9781554614504179 | 0.5190972089767456
-
