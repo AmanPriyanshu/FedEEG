@@ -124,8 +124,7 @@ EEG analysis and BCI is a growing field in machine learning and therefore the la
 [7]: G. Ruffini, D. Ibañez, M. Castellano, S. Dunne, A. Soria-Frisch: “EEG-driven RNN Classification for Prognosis of Neurodegeneration in At-Risk Patients”
 [8]: S. Patnaik, L. Moharkar; A. Chaudhari: “Deep RNN learning for EEG based functional brain state inference”
 [9]: A.A. Petrosiana, D.V. Prokhorovb, W. Lajara-Nansona, R.B. Schiffera: “Recurrent neural network-based approach for early recognition of Alzheimer's disease in EEG”
-[10]: J. Koneˇcn´y, H.B. McMahan, D. Ramage, P. Richt´arik: “Federated Optimization:
-Distributed Machine Learning for On-Device Intelligence”
+[10]: J. Koneˇcn´y, H.B. McMahan, D. Ramage, P. Richt´arik: “Federated Optimization: Distributed Machine Learning for On-Device Intelligence”
 [11]: L.T. Phong, Y. Aono, T. Hayashi, L. Wang, S. Moriai: “Privacy-Preserving Deep Learning via Additively Homomorphic Encryption”
 [12]: M.J. Sheller, G.A. Reina, B. Edwards, J. Martin, S. Bakas: “Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation”
 [13]: G. Szegedi, P. Kiss, T. Horváth: “Evolutionary federated learning on EEG-data”
