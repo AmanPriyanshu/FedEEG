@@ -1,5 +1,7 @@
 # FedEEG
 
+https://figshare.com/articles/journal_contribution/Work/13708612
+
 ## Abstract
 
 EEG technology and analysis offers a great opportunity for developing Brain-Computer-Interface. Machine learning shows great potential in this subject of study, however, the subject of study is of great sensitivity. BCI or EEG analysis has been under heavy discussion and scrutiny with respect to privacy concerns and ethics. Leakage of data, which may include personal emotions and sentiments as well as ethical concerns with misrepresentation of learnt data by ML models. Previous studies on EEG analysis have focused on decoding emotions, hand-movements and thought representation. However, these studies do not focus on contributor privacy and therefore this work attempts to provide a proof-of-concept for employing Federated Learning for conserving the same. The analysis provided employs EEG data collected for Hand Movement Classification from 4 different clients. The results demonstrate the effectiveness of Federated Learning as an aggregating tool for EEG analysis. Achieving an accuracy of 57.67% which is comparable to 61.83% when utilizing the complete dataset. The study focuses on privacy and the employment of federated learning as a means of overcoming it.
