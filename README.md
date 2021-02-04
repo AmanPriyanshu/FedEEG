@@ -114,7 +114,7 @@ Federated Learning provides an efficient platform for collaborative learning to 
 EEG analysis and BCI is a growing field in machine learning and therefore the lack of larger datasets and the limitations on the pre-existing samples are with holding the growth of the field, privacy enabled machine learning offers a methodology to solve this issue. Federated Learning a subset of algorithms falling under this, offers a convenient, easy to implement solution towards hand-movement learning.
 
 ## Citations:
-
+```
 [1]: A. Narayanan, V. Shmatikov: “Robust De-anonymization of Large Sparse Datasets”
 [2]: Z. Sun, R. Schuster, V. Shmatikov: “De-Anonymizing Text by Fingerprinting Language Generation”
 [3]: L.A.W. Gemein, R.T. Schirrmeister, P. Chrabąszcz, D. Wilson, J. Boedecker, A. Schulze-Bonhage, F. Hutter, T. Ball: “Machine-learning-based diagnostics of EEG pathology”
@@ -131,3 +131,4 @@ Distributed Machine Learning for On-Device Intelligence”
 [13]: G. Szegedi, P. Kiss, T. Horváth: “Evolutionary federated learning on EEG-data”
 [14]: D. Gao, C. Ju, X. Wei, Y. Liu, T. Chen, Q. Yang: “HHHFL: Hierarchical Heterogeneous Horizontal Federated Learning for Electroencephalography”
 [15]: F. Torquato, “EEG data from hands movement ”
+```
